@@ -22,6 +22,8 @@ Magify will use Git to automatically determine the date of the last commit in th
 python magify.py -t ../Templates -s ../Scripts -b base -v my-version
 ```
 
+Scripts version, either automatically acquired or passed manually, will be writen into the root of the templates repo in the file `scripts_version.txt`.
+
 For help with script options, run it with the help flag:
 ```console
 python magify.py --help
